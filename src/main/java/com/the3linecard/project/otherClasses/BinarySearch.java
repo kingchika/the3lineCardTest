@@ -3,7 +3,7 @@ package com.the3linecard.project.otherClasses;
 public class BinarySearch {
     int key = 30;
     int[] studentIds = {1,2,3,4,5,6,7,8};
-    int lst = studentIds.length -1;
+    int last = studentIds.length -1;
 
  public BinarySearch(){
       // performs binary search
@@ -17,7 +17,7 @@ System.out.println("Student is found at row"+ result);
  }
 
 
-void search(int array[], int first,int last, int key){
+int search(int array[], int first,int last, int key){
      if(last >= first){
            int mid = first + (last - first)/2;
            if(array[mid] == key){
@@ -35,4 +35,5 @@ void search(int array[], int first,int last, int key){
 
 public static void main(String[]args){
     new BinarySearch ();
+}
 }
