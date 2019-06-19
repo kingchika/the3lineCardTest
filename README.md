@@ -8,7 +8,7 @@ Question 1ii
 the efficiency of binarySearch with O-notation of n^2
 
 
-i added @Transactional annotaton to the StudentRepository.java to correct the issue in updating the database.
+i added @Transactional annotaton to the StudentRepository.java to correct the issue in updating the student table in the database.
 
 Thanks for giving me the opportunity to come for the test.
 looking forward to hearing from you.
