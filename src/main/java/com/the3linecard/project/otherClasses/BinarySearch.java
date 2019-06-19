@@ -32,8 +32,10 @@ int search(int array[], int first,int last, int key){
  }
   return -1;
 }
-
+    // I commented the main class bellow because it will interfere with the spring boot main class
+/*
 public static void main(String[]args){
     new BinarySearch ();
 }
+*/
 }
